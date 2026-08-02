@@ -50,6 +50,8 @@ def main() -> None:
 
     findings: dict[str, list[str]] = {}
     for path in ROOT.rglob("*"):
+        if ".git" in path.parts:
+            continue
         if not path.is_file() or path.suffix.lower() in {".png", ".pyc"}:
             continue
         if path.name == "validate_public.py":
