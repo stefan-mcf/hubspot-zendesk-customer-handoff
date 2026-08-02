@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "dataset_id": "sm-systems-hubspot-zendesk-customer-handoff-v1",
+  "classification": "controlled_synthetic_record",
+  "records": [
+    {
+      "handoff_id": "SM-HZ-EXAMPLE-001",
+      "company_name": "Northstar Facilities Group",
+      "company_domain": "northstar.example.invalid",
+      "contact_first_name": "Avery",
+      "contact_last_name": "Hart",
+      "contact_email": "avery.hart@example.invalid",
+      "city": "Melbourne",
+      "state": "VIC",
+      "service_type": "Workflow Automation Retainer",
+      "hubspot_stage": "won",
+      "deal_id": "SM-HZ-DEAL-001",
+      "deal_name": "Customer Operations Automation",
+      "next_action": "Prepare the customer support workspace",
+      "owner": "SM Systems",
+      "owner_approved": true,
+      "proof_safe": true
+    }
+  ]
+}
+
