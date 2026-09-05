@@ -9,7 +9,9 @@ Zendesk organization and one linked end user. Stable external IDs, exact
 approval gates, provider readback, an idempotent rerun, and cross-system
 reconciliation keep the handoff inspectable.
 
-[View the full SM Systems case study](https://smsystems.au/work/hubspot-zendesk-customer-handoff/)
+**Role:** CRM-to-support architecture, field mapping, approval controls, provider integration and reconciliation. **Status:** an internal SM Systems implementation verified with controlled commissioning records.
+
+[View the combined CRM and handoff case study](https://smsystems.au/work/hubspot-lead-to-deal-crm/)
 
 ## What this proves
 
@@ -67,4 +69,3 @@ This repository demonstrates a controlled implementation using synthetic
 records. It does not claim a paid-client deployment, production traffic,
 Zendesk ticket automation, customer replies, AI or RAG, Jira escalation,
 measured time savings, revenue, or ROI.
-
