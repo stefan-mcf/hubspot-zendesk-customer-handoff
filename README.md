@@ -8,9 +8,11 @@ Move an approved won relationship from HubSpot into Zendesk with stable identity
 
 [Architecture](docs/architecture.md) · [Case study](docs/case-study.md) · [Runbook](docs/runbook.md)
 
-![Native Zendesk organization and linked user in a controlled synthetic case](proof/04-zendesk-customer-context.png)
+## One won deal, the same five records on replay
 
-*August 2026 commissioning summary with native Zendesk captures and a masked contact alias. Further [screens and provenance](docs/evidence.md) cover the HubSpot source, mapping and reconciliation.*
+In the [August 2026 controlled run](docs/case-study.md), one synthetic closed-won deal led to one Zendesk organization and a linked end user. The rerun reused all five provider records: the HubSpot company, contact and deal, and the Zendesk organization and user.
+
+Run `make plan` to inspect payloads generated from the [local fixture](examples/controlled-handoff.json). It produces a local preview. The [retained Zendesk view](proof/04-zendesk-customer-context.png) and [evidence index](docs/evidence.md) document the separate provider commissioning run.
 
 ## How it works
 
